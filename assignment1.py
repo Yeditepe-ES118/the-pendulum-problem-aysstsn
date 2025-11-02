@@ -9,5 +9,3 @@ def find_period(L0, L1):
         T0 = 2 * np.pi * np.sqrt(L0/g)
         T1= 2 * np.pi * np.sqrt(L1/g)
         return (T0, T1)
-    
-find_period(2, 22)
